@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Feedback form</title>
+</head>
+
+<body>
+    <form id="my_form" name="my_form" action="" method="post">
+        <h1>Feedback Form</h1>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required minlength="3" maxlength="50"><br>
+        <label for="portfolio">Portfolio</label>
+        <input type="url" id="portfolio" name="portfolio" required>
+        <br>
+        <label for="favColor">Red</label>
+        <input type="color" id="favColor" name="favColor" value="#f6b73c">
+        <label for="likeness">Likeness</label>
+        <input type="range" min="1" max="100" value="5" id="likeness">
+        <br>
+        <button id="submit" type="submit">Submit</button>
+    </form>
+</body>
+
+</html>

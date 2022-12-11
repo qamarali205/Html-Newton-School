@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Insurance Form</title>
+</head>
+
+<body>
+    <form id="my-form" name="form" method="post" action="">
+        <label for="name">Name</label>
+        <input type="text" id="name" required>
+        <br>
+        <label for="email">Email</label>
+        <input type="email" id="email" required>
+        <br>
+        <label for="gender"> Gender</label>
+        <input type="radio" id="gender_m" name="gender" Value="Male" required>
+        <label for="gender_m">M</label>
+        <input type="radio" id="gender_f" name="gender" Value="Female" required>
+        <label for="gender_f">F</label>
+        <br>
+        <label for="cars">Choose your car</label>
+        <select id="cars" name="cars" required>
+            <option value="BMW">BMW</option>
+            <option value="Audi">Audi</option>
+            <option value="Mercedez">Mercedez</option>
+        </select><br>
+        <label for="carage">Car Age:</label>
+        <input type="number" id="carage" required>
+        <br>
+        <label for="dop">Date of purchase</label>
+        <input type="date" id="dop" required>
+        <br>
+        <label for="password"> Password</label>
+        <input type="password" id="password" required>
+        <br>
+
+        <button id="submit" type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
