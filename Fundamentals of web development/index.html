@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <button id="btn" style="color:blue;" onclick="check1()">Click me</button>
+    <div id="text">You have clicked the button <span id="text1">0</span> times.</div>
+    <script>
+        var n = 0;
+        var btn = document.getElementById("btn");
+        var disp = document.getElementById("text1");
+
+        function check1() {
+            n++;
+            disp.innerHTML = n;
+            if (disp.innerHTML % 2 != 0)
+                btn.style.color = 'red';
+            else
+                btn.style.color = 'blue';
+        }
+    </script>
+
+</body>
+
+</html>
