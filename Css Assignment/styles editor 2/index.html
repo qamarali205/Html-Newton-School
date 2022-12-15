@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>styles editor 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="row container">
+        <h1>Styles Editor</h1>
+        <div class="col md-6 container">
+          <div class="outer">
+            <div id="main" class="main">
+              <h3>Inner Element</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col md-6">
+          <div class="form">
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Left</label>
+              left:<input type="number" class="form-control" id="left" placeholder="Enter left in 'px'" />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Top</label>
+              top:<input type="number" class="form-control" id="top" placeholder="Enter top in 'px'" />
+            </div>
+            <button type="button"  class="btn btn-primary" onclick="onSubmit(document.getElementById('left').value,document.getElementById('top').value)">Submit</button>
+          </div>
+        </div>
+      </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
