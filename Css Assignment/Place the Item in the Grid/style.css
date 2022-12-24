@@ -1,0 +1,33 @@
+.holder {
+    /* Write code here*/
+    display: grid;
+    grid-template-areas: "item-1 item-2" "item-3 item-4";
+    height: 400px;
+    width: 400px;
+ }
+
+ .item {
+     width: 175px;
+     height: 175px;
+     font-size: 3rem;
+ }
+
+ .item-1 {
+     background: red;
+     grid-area: item-1;
+ }
+
+ .item-2 {
+     background: blue;
+     grid-area: item-2;
+ }
+
+ .item-3 {
+     background: green;
+     grid-area: item-3;
+
+ }
+ .item-4{
+     background-color: magenta;
+     grid-area: item-4;
+ }
